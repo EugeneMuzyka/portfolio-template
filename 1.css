@@ -1,340 +1,356 @@
-                html {
-                    font-family: Roboto;
-                    font-size: 16px;
-                    box-sizing: border-box;
-                }
-                
-                *,
-                *::before,
-                *::after {
-                    box-sizing: inherit;
-                }
-                
-                .container {
-                    max-width: 1120px;
-                    margin: 0 auto;
-                    padding: 100px 0;
-                }
-                
-                .container.clin-rpadding {
-                    padding: 0;
-                }
-                
-                .clearfix::after {
-                    content: "";
-                    display: block;
-                    clear: both;
-                }
-                
-                .header {
-                    padding: 50px 0;
-                }
-                
-                header {
-                    background: #EEEFF1;
-                }
-                
-                .header-picture {
-                    width: 96px;
-                    float: left;
-                }
-                
-                .header-picture img {
-                    width: 100%;
-                    height: 100%;
-                }
-                
-                .menu {
-                    line-height: 26px;
-                    float: right;
-                }
-                
-                .menu-list-info {
-                    float: left;
-                    margin: 0 1.25rem;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    color: #000000
-                }
-                
-                .menu-list-info :last-child {
-                    margin: 0;
-                }
-                
-                .menu li {
-                    display: inline;
-                }
-                
-                .view-main {
-                    padding-top: 50px;
-                    padding-bottom: 50px;
-                    background: #eeeff1
-                }
-                
-                .inform_list {
-                    padding-top: 50px;
-                }
-                
-                .main-picture {
-                    width: 357px;
-                    height: 233.7px;
-                    float: left;
-                    margin: 50px auto;
-                    margin-left: 80px;
-                }
-                
-                .design-list {
-                    max-width: 540px;
-                    float: right;
-                }
-                
-                .work_title {
-                    color: #000000;
-                    font-size: 3rem;
-                    font-weight: 600;
-                    line-height: 79px;
-                }
-                
-                .design-description {
-                    color: #737373;
-                    font-size: 1rem;
-                    margin: 50px auto;
-                    line-height: 26px;
-                }
-                /* 40+ проектов*/
-                
-                .projects-list {
-                    left: 0px;
-                    top: 1059px;
-                    background: #345379;
-                }
-                
-                .all-projects {
-                    width: calc(100% / 6 - 5px);
-                    margin: right 5px;
-                    float: left;
-                }
-                
-                .image_for_40project {
-                    width: 50px;
-                    margin: 0 10px;
-                    float: left;
-                }
-                
-                .project40 {
-                    width: calc(100% - 50px - 20px);
-                    color: #ffffff;
-                    font-size: 1rem;
-                    line-height: 26px;
-                    float: left;
-                }
-                
-                .about_me {
-                    background: #e6e6e6;
-                }
-                
-                .me_title {
-                    color: #000000;
-                    font-size: 2rem;
-                    line-height: 37px;
-                    font-weight: 600;
-                    text-align: center;
-                }
-                
-                .work-description {
-                    color: hsl#737373;
-                    font-size: 1rem;
-                    margin: 50px auto;
-                    max-width: 540px;
-                    line-height: 26px;
-                    text-align: center;
-                }
-                
-                .about-work {
-                    background-color: #e0e0e1;
-                    min-height: 100vh;
-                    text-align: center;
-                }
-                
-                div {
-                    box-sizing: border-box;
-                }
-                
-                body {
-                    margin: 0;
-                }
-                
-                .list-projects {
-                    height: 250px;
-                    left: 0px;
-                    top: 1059px;
-                    background: #345379;
-                }
-                
-                .title-skils {
-                    color: #000000;
-                    font-size: 3rem;
-                    line-height: 37px;
-                    font-weight: 600;
-                    padding-bottom: 2rem;
-                }
-                
-                .block_for_skills {
-                    background: #e6e6e6;
-                }
-                
-                .skill {
-                    font-size: 1rem;
-                    line-height: 1.6rem;
-                    padding-top: 1rem;
-                    padding-bottom: 1rem;
-                    color: #737373;
-                }
-                
-                .list-skils {
-                    width: 445px;
-                    float: left;
-                    margin: 50px 120px 50px 0;
-                }
-                
-                .progress {
-                    height: 4px;
-                    background: #c4c4c4;
-                }
-                
-                .progress-inner {
-                    height: 100%;
-                    background: #345379;
-                    width: 80%;
-                }
-                
-                .men_in_photo {
-                    display: inline-block;
-                    max-width: 555px;
-                    max-height: 450px;
-                    margin-right: -16px;
-                }
-                
-                .work-video {
-                    width: 100%;
-                    height: 600px;
-                }
-                
-                .work-video iframe {
-                    width: 100%;
-                    height: 100%;
-                }
-                
-                .photo_presentation {
-                    width: 25%;
-                    float: left;
-                }
-                
-                .photo_presentation img {
-                    width: 100%;
-                    height: 100%;
-                    float: left;
-                }
-                
-                .partners-photo {
-                    margin: 0.5rem;
-                    float: left;
-                }
-                /* обо мне */
-                
-                .div_for_input {
-                    max-width: 540px;
-                    max-height: 245px;
-                    margin-left: 26%;
-                }
-                
-                .window_left {
-                    float: left;
-                    height: 50px;
-                    width: 47.2%;
-                    padding: 17px 0 18px 20px;
-                    margin-right: 15px;
-                }
-                
-                .window_right {
-                    float: left;
-                    height: 50px;
-                    width: 47.2%;
-                    padding: 17px 0 18px 20px;
-                    margin-left: 15px;
-                }
-                
-                .window_botton {
-                    width: 540px;
-                    height: 175px;
-                    resize: none;
-                    padding: 17px 20px;
-                    margin-top: 20px;
-                }
-                
-                .click-message {
-                    margin-left: 40%;
-                    margin-top: 50px;
-                }
-                
-                .reply-message {
-                    font-size: 1rem;
-                    line-height: 26px;
-                    text-align: center;
-                    letter-spacing: 0.1em;
-                    font-family: Roboto;
-                    width: 225px;
-                    height: 65px;
-                    color: #ffffff;
-                    margin: 0 auto;
-                    background: #345379;
-                }
-                /* footer */
-                
-                footer {
-                    width: 100%;
-                    height: 151px;
-                    background: #345379;
-                }
-                
-                .div_for_name_and_license {
-                    width: 85%;
-                    float: left;
-                }
-                
-                .text_footer_name {
-                    font-size: 1.3rem;
-                    font-weight: 600;
-                    line-height: 25px;
-                    color: #ffffff;
-                    margin-top: -50px;
-                }
-                
-                .text_license {
-                    font-size: 0.8rem;
-                    line-height: 21px;
-                    color: #ffffff;
-                    margin-top: 20px;
-                }
-                
-                .div_for_logo_vk {
-                    width: 15%;
-                    float: left;
-                }
-                
-                .vk-box {
-                    max-width: 185px;
-                    max-height: 40px;
-                    margin-top: -35px;
-                }
-                
-                .div_vk-picture {
-                    width: 33.3%;
-                    height: 23px;
-                    float: left;
-                }
-                
-                .vk_image {
-                    width: 70%;
-                    height: 100%;
-                }
+    html {
+        font-family: Roboto;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    .container {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+    
+    .container.clin-rpadding {
+        padding: 0;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    /* Header */
+    
+    .header {
+        padding: 50px 0;
+    }
+    
+    header {
+        background: #E5E5E5;
+    }
+    
+    .header-picture {
+        width: 96px;
+        float: left;
+    }
+    
+    .header-picture img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .menu {
+        line-height: 26px;
+        float: right;
+    }
+    
+    .menu-list-info {
+        float: left;
+        margin: 0 1.25rem;
+        text-transform: uppercase;
+    }
+    
+    .menu-list-info :last-child {
+        margin: 0;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .menu li {
+        display: inline;
+    }
+    /* Дизайн и верстка */
+    
+    .view-main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #E5E5E5;
+    }
+    
+    .inform_list {
+        padding-top: 50px;
+    }
+    
+    .main-picture {
+        width: 357px;
+        height: 233.7px;
+        float: left;
+        margin: 50px auto;
+        margin-left: 80px;
+    }
+    
+    .design-list {
+        max-width: 540px;
+        float: right;
+    }
+    
+    .work_title {
+        color: #000000;
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 79px;
+    }
+    
+    .design-description {
+        color: #737373;
+        font-size: 1rem;
+        margin: 50px auto;
+        line-height: 26px;
+    }
+    
+    .reply-message {
+        width: 225px;
+        height: 65px;
+        background: #34547A;
+        border: none;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    /* Обо мне */
+    
+    .about_me {
+        background: #EEEFF1;
+    }
+    
+    .me_title {
+        color: #000000;
+        font-size: 2rem;
+        line-height: 37px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .work-description {
+        color: hsl#737373;
+        font-size: 1rem;
+        margin: 50px auto;
+        max-width: 540px;
+        line-height: 26px;
+        text-align: center;
+    }
+    /* 40+ проектов*/
+    
+    .projects-list {
+        left: 0px;
+        top: 1059px;
+        background: #345379;
+    }
+    
+    .all-projects {
+        width: calc(100% / 6 - 5px);
+        margin: right 5px;
+        float: left;
+    }
+    
+    .image_for_40project {
+        width: 50px;
+        margin: 0 10px;
+        float: left;
+    }
+    
+    .project40 {
+        width: calc(100% - 50px - 20px);
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 26px;
+        float: left;
+    }
+    /* Как я работаю*/
+    
+    .about-work {
+        background-color: #e0e0e1;
+        min-height: 100vh;
+        text-align: center;
+    }
+    
+    div {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .list-projects {
+        height: 250px;
+        left: 0px;
+        top: 1059px;
+        background: #345379;
+    }
+    /* Мои навыки */
+    
+    .block_for_skills {
+        background: #e6e6e6;
+    }
+    
+    .title-skils {
+        color: #000000;
+        font-size: 3rem;
+        line-height: 37px;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    
+    .skill {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #737373;
+    }
+    
+    .list-skils {
+        width: 445px;
+        float: left;
+        margin: 50px 120px 50px 0;
+    }
+    
+    .progress {
+        height: 4px;
+        background: #c4c4c4;
+    }
+    
+    .progress-inner {
+        height: 100%;
+        background: #345379;
+        width: 80%;
+    }
+    
+    .men_in_photo {
+        display: inline-block;
+        max-width: 555px;
+        max-height: 450px;
+        margin-right: -16px;
+    }
+    
+    .work-video {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .work-video iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .photo_presentation {
+        width: 25%;
+        float: left;
+    }
+    
+    .photo_presentation img {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    
+    .partners-photo {
+        margin: 0.5rem;
+        float: left;
+    }
+    /* обо мне */
+    
+    .form {
+        max-width: 540px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .form-input {
+        width: calc(50% - 15px);
+        padding: 17px 0 18px 20px;
+        float: left;
+    }
+    
+    .form-input:first-child {
+        margin-right: 30px;
+    }
+    
+    .form-textarea {
+        display: block;
+        width: 100%;
+        height: 175px;
+        resize: none;
+        padding: 17px 20px;
+        margin-top: 20px;
+    }
+    
+    .form-action-wrapper {
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .form-action {
+        font-size: 1rem;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+        font-family: Roboto;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 0 auto;
+        background: #345379;
+        padding: 1rem 4rem;
+        border: none;
+    }
+    /* footer */
+    
+    footer {
+        width: 100%;
+        height: 151px;
+        background: #345379;
+    }
+    
+    .div_for_name_and_license {
+        width: 85%;
+        float: left;
+    }
+    
+    .text_footer_name {
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 25px;
+        color: #ffffff;
+        margin-top: -50px;
+    }
+    
+    .text_license {
+        font-size: 0.8rem;
+        line-height: 21px;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    
+    .div_for_logo_vk {
+        width: 15%;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .vk-box {
+        max-width: 185px;
+        max-height: 40px;
+        margin-top: -35px;
+    }
+    
+    .div_vk-picture {
+        width: 33.3%;
+        height: 23px;
+        float: left;
+    }
+    
+    .vk_image {
+        width: 70%;
+        height: 100%;
+    }
